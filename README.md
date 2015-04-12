@@ -15,6 +15,7 @@ Js中克隆对象的参考资料
 ## 几种方法
 
   -
+  
     ```javascript
 	//for  in
 	for(var attr in oldObj){
