@@ -12,23 +12,27 @@ Js中克隆对象的参考资料
 
    1. [how to copy javascript object to new variable not by reference](http://stackoverflow.com/questions/18359093/how-to-copy-javascript-object-to-new-variable-not-by-reference)
 
-## 几种方法
+## Objects
 
-  -
-  
+  - Use the literal syntax for object creation.
+
     ```javascript
-	//for  in
+    //for  in
 	for(var attr in oldObj){
 		     var newOld={};
 		     if(oldObj.hasOwlProprity(attr)){
 		     newOld[attr]=oldObj[attr];
 	     }
     }
+
 	//JSON
 	     var newObj=JSON.paser(JSON.stringify(oldObj));
+
 	//jQuery
 		浅拷贝
 		var newObj=jQuery.extend({},old);
 		深拷贝
 		var newObj=jQuery.extend(true,{},old);
-	```
+    ```
+
+**[⬆ back to top](#table-of-contents)**
