@@ -26,7 +26,7 @@ Js中克隆对象的参考资料
     }
 
 	//JSON
-	     var newObj=JSON.paser(JSON.stringify(oldObj));
+	     var newObj=JSON.parse(JSON.stringify(oldObj));
 
 	//jQuery
 		浅拷贝
