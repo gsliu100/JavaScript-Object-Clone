@@ -9,7 +9,6 @@ Js中克隆对象的参考资料
 	3. http://stackoverflow.com/questions/728360/most-elegant-way-to-clone-a-javascript-object
 	4. http://stackoverflow.com/questions/18359093/how-to-copy-javascript-object-to-new-variable-not-by-reference
 
-集中方式：
 //for  in
      for(var attr in oldObj){
      var newOld={};
