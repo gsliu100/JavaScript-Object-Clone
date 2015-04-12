@@ -35,4 +35,3 @@ Js中克隆对象的参考资料
 		var newObj=jQuery.extend(true,{},old);
     ```
 
-**[⬆ back to top](#table-of-contents)**
