@@ -12,9 +12,9 @@ Js中克隆对象的参考资料
 
    1. [how to copy javascript object to new variable not by reference](http://stackoverflow.com/questions/18359093/how-to-copy-javascript-object-to-new-variable-not-by-reference)
 
-## Objects
+## 几种方法
 
-  - Use the literal syntax for object creation.
+  - 使用的方法.
 
     ```javascript
     //for  in
