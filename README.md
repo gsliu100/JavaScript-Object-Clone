@@ -30,8 +30,8 @@ Js中克隆对象的参考资料
 
 	//jQuery
 		浅拷贝
-		var newObj=jQuery.extend({},old);
+		var newObj=jQuery.extend({},oldObj);
 		深拷贝
-		var newObj=jQuery.extend(true,{},old);
+		var newObj=jQuery.extend(true,{},oldObj);
     ```
 
